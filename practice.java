@@ -56,17 +56,6 @@ public class Main {
     }
 }
 
-/*
-shoulders merge with crotch, elbows with knees
-hands with feet. capturing is rigid, seizing is flexible.
-one moves into weapons after he masters grappling. a weapon is the extension of the limbs.
-when man and weapon merge, heart merges with mind, mind with energy, and energy with strength.
-Yin on the inside and yang on the outside. energy is formed inside out.
-you can't move on without first attaining the previous form.
-*/
-
-"a sword left dull for too long starts to believe it wasn't forged for battle"
-
 //implementing composition in Java.
 public class Main{
     public static void main(String[] args){
