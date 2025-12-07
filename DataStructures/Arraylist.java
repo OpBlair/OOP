@@ -8,5 +8,9 @@ public class Arraylist {
     cars.add("Ford");
     cars.add("Mazda");
     System.out.println(cars);
+    cars.remove("Ford");
+    cars.remove(0);
+    
   }
+
 }
