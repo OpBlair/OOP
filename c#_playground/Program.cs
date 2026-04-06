@@ -9,6 +9,7 @@ public class Program{
         float b = 2.5f;
         double c = 20.0;
         char d = 'A';
+        string language = 'c#';
         bool isLearning = true;
 
         Console.WriteLine("Data Types.");
@@ -16,6 +17,7 @@ public class Program{
         Console.WriteLine("Float: " + b);
         Console.WriteLine("Double: " + c);
         Console.WriteLine("char: " + d);
+        Console.WriteLine("string: " + language);
         Console.WriteLine("isLearning data types in C#: " + isLearning);
     }
 
