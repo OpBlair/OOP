@@ -1,0 +1,14 @@
+/home/gri3zmann/bscs/Y2S2/EMP/c#_playground/bin/Debug/net8.0/c#_playground
+/home/gri3zmann/bscs/Y2S2/EMP/c#_playground/bin/Debug/net8.0/c#_playground.deps.json
+/home/gri3zmann/bscs/Y2S2/EMP/c#_playground/bin/Debug/net8.0/c#_playground.runtimeconfig.json
+/home/gri3zmann/bscs/Y2S2/EMP/c#_playground/bin/Debug/net8.0/c#_playground.dll
+/home/gri3zmann/bscs/Y2S2/EMP/c#_playground/bin/Debug/net8.0/c#_playground.pdb
+/home/gri3zmann/bscs/Y2S2/EMP/c#_playground/obj/Debug/net8.0/c#_playground.GeneratedMSBuildEditorConfig.editorconfig
+/home/gri3zmann/bscs/Y2S2/EMP/c#_playground/obj/Debug/net8.0/c#_playground.AssemblyInfoInputs.cache
+/home/gri3zmann/bscs/Y2S2/EMP/c#_playground/obj/Debug/net8.0/c#_playground.AssemblyInfo.cs
+/home/gri3zmann/bscs/Y2S2/EMP/c#_playground/obj/Debug/net8.0/c#_playground.csproj.CoreCompileInputs.cache
+/home/gri3zmann/bscs/Y2S2/EMP/c#_playground/obj/Debug/net8.0/c#_playground.dll
+/home/gri3zmann/bscs/Y2S2/EMP/c#_playground/obj/Debug/net8.0/refint/c#_playground.dll
+/home/gri3zmann/bscs/Y2S2/EMP/c#_playground/obj/Debug/net8.0/c#_playground.pdb
+/home/gri3zmann/bscs/Y2S2/EMP/c#_playground/obj/Debug/net8.0/c#_playground.genruntimeconfig.cache
+/home/gri3zmann/bscs/Y2S2/EMP/c#_playground/obj/Debug/net8.0/ref/c#_playground.dll
