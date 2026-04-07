@@ -10,5 +10,19 @@ namespace CSharpPractice.Loops
                 Console.WriteLine("a " + a);
             }
         }
+
+        // Multiplication Table
+        public static void Multiplication()
+        {
+            int number = 10;
+            Console.WriteLine($"Multiplication Table for {number}");
+            for(int b = 1; b < 5; b++)
+            {
+                for(int d = 1; d < 5; d++)
+                {
+                    Console.WriteLine($"{b} * {d} = {b * d}");
+                }
+            }
+        }
     }
 }
