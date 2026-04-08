@@ -11,7 +11,8 @@ namespace CSharpPractice.Loops
             }
         }
 
-        // Multiplication Table
+        // Multiplication Table4
+
         public static void Multiplication()
         {
             int number = 10;
@@ -20,8 +21,9 @@ namespace CSharpPractice.Loops
             {
                 for(int d = 1; d < 5; d++)
                 {
-                    Console.WriteLine($"{b} * {d} = {b * d}");
+                    Console.Write($"{b, 2} * {d, 2} = {b * d, 3} | ");
                 }
+                Console.WriteLine("");
             }
         }
     }
