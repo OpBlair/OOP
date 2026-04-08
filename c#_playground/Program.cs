@@ -1,5 +1,6 @@
 using System;
 using CSharpPractice.Loops;
+using CSharpPractice.Functions;
 
 public class Program{
 
@@ -43,6 +44,7 @@ public class Program{
         Console.WriteLine("2. Type Conversion.");
         Console.WriteLine("3. Loops.");
         Console.WriteLine("4. Multiplication.");
+        Console.WriteLine("5. Functions.");
 
         Console.Write("Enter your choice: ");
 
@@ -53,6 +55,7 @@ public class Program{
                 case 2: TypeConversion(); break;
                 case 3: Loops.ShowLoops(); break;
                 case 4: Loops.Multiplication(); break;
+                case 5: Functions.Greeting(); break;
                 default: Console.WriteLine("No input specified!"); break;
             }
         }
