@@ -9,6 +9,7 @@ The projects here are part of a larger **OOP playground**, which also includes J
 - **Type Conversion**
 - **Loops and Nested Loops**
 - **Basic Methods & OOP principles**
+- **Functions**
 
 These exercises are meant for **beginner to intermediate learners** to build confidence in C# and console programming.
 
@@ -43,6 +44,7 @@ Namespace: `CSharpPractice.Loops`
 2. **Multiplication Table**
    - Nested loops generate a multiplication table.
    - Demonstrates control flow and iteration.
+  
 
 ### Example Usage:
 
@@ -51,6 +53,23 @@ using CSharpPractice.Loops;
 
 Loops.ShowLoops();        // Prints numbers from 0 to 3
 Loops.Multiplication();   // Prints a 4x4 multiplication table
+````
+
+
+## Functions
+Namespace: `CSharpPractice.Functions`
+1. **Addition**
+2. **Subtraction**
+3. **Division**
+
+### Example Usage:
+
+```csharp
+using CSharpPractice.Functions;
+
+Functions.Addition();
+Functions.Subtraction();
+Functions.Division();
 ````
 
 ---
