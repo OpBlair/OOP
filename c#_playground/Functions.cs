@@ -30,5 +30,29 @@ namespace CSharpPractice.Functions
 
             Console.WriteLine($"The product of {num1} and {num2} is {num1 * num2:F3}");
         }
+        // Subtraction Function
+        public static void Subtraction()
+        {
+            Console.WriteLine("\n=== Performing Subtraction ===");
+            Console.Write("Enter first number: ");
+            int.TryParse(Console.ReadLine(), out int num1);
+
+            Console.Write("Enter second number: ");
+            int.TryParse(Console.ReadLine(), out int num2);
+
+            Console.WriteLine($"The difference between {num1} and {num2} is {num1 - num2, 2}");
+        }
+        // Division Function
+        public static void Division()
+        {
+            Console.WriteLine("\n=== Performing Subtraction ===");
+            Console.Write("Enter first number: ");
+            double.TryParse(Console.ReadLine(), out double num1);
+
+            Console.Write("Enter second number: ");
+            double.TryParse(Console.ReadLine(), out double num2);
+
+            Console.WriteLine($"The difference between {num1} and {num2} is {num1 / num2: 2F}");
+        }
     }
 }
