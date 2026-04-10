@@ -46,6 +46,9 @@ public class Program{
         Console.WriteLine("4. Multiplication.");
         Console.WriteLine("5. Functions.");
         Console.WriteLine("6. Addition.");
+        Console.WriteLine("7. Multiplication.");
+        Console.WriteLine("8. Subtraction.");
+        Console.WriteLine("9. Division.");
 
         Console.Write("Enter your choice: ");
 
@@ -58,6 +61,9 @@ public class Program{
                 case 4: Loops.Multiplication(); break;
                 case 5: Functions.Greeting(); break;
                 case 6: Functions.Addition(); break;
+                case 7: Functions.Multiplication(); break;
+                case 8: Functions.Subtraction(); break;
+                case 9: Functions.Division(); break;
                 default: Console.WriteLine("No input specified!"); break;
             }
         }
