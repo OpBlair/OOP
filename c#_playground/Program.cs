@@ -1,6 +1,7 @@
 using System;
 using CSharpPractice.Loops;
 using CSharpPractice.Functions;
+using NumberGuessing;
 
 public class Program{
 
@@ -49,6 +50,7 @@ public class Program{
         Console.WriteLine("7. Multiplication.");
         Console.WriteLine("8. Subtraction.");
         Console.WriteLine("9. Division.");
+        Console.WriteLine("10. Number Guessing Game.");
 
         Console.Write("Enter your choice: ");
 
@@ -64,6 +66,7 @@ public class Program{
                 case 7: Functions.Multiplication(); break;
                 case 8: Functions.Subtraction(); break;
                 case 9: Functions.Division(); break;
+                case 10: Game.GuessNumber(); break;
                 default: Console.WriteLine("No input specified!"); break;
             }
         }
