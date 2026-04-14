@@ -19,12 +19,14 @@ namespace NumberGuessing
 
             while (true)
             {
+                Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("\n --- current grid ---");
+                Console.ResetColor();
                 for(int row = 0; row < 5; row++)
                 {
                     for(int col = 0; col < 5; col++)
                     {
-                        Console.Write(revealed[row, col] ? $"{grid[row, col]}" : "* ");
+                        Console.Write(revealed[row, col] ? $"{grid[row, col]} " : "* ");
                     }
                     Console.WriteLine();
                 }
@@ -53,3 +55,6 @@ namespace NumberGuessing
         }
     }
 }
+
+
+
