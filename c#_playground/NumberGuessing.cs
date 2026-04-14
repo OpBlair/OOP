@@ -26,7 +26,9 @@ namespace NumberGuessing
                 {
                     for(int col = 0; col < 5; col++)
                     {
+                        Console.ForegroundColor = revealed[row, col] ? ConsoleColor.Green : ConsoleColor.Gray;
                         Console.Write(revealed[row, col] ? $"{grid[row, col]} " : "* ");
+                        Console.ResetColor();
                     }
                     Console.WriteLine();
                 }
