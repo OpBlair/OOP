@@ -71,7 +71,7 @@ public class Program{
                 case 8: Functions.Subtraction(); break;
                 case 9: Functions.Division(); break;
                 case 10: Game.GuessNumber(); break;
-                case 11: TicTacToeGame(); break;
+                case 11: TicTacToeGame.GameBody.Start(); break;
                 case 12: CollectionsLab.Arrays(); break;
                 default: Console.WriteLine("No input specified!"); break;
             }
