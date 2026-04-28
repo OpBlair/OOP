@@ -3,6 +3,7 @@ using CSharpPractice.Loops;
 using CSharpPractice.Functions;
 using NumberGuessing;
 using TicTacToeGame;
+using CSharpPractice.Collections;
 
 public class Program{
 
@@ -53,6 +54,7 @@ public class Program{
         Console.WriteLine("9. Division.");
         Console.WriteLine("10. Number Guessing Game.");
         Console.WriteLine("11. Tic Tac Toe Game.");
+        Console.WriteLine("12. Collections");
 
         Console.Write("Enter your choice: ");
 
@@ -70,6 +72,7 @@ public class Program{
                 case 9: Functions.Division(); break;
                 case 10: Game.GuessNumber(); break;
                 case 11: TicTacToeGame(); break;
+                case 12: CollectionsLab.Arrays(); break;
                 default: Console.WriteLine("No input specified!"); break;
             }
         }
