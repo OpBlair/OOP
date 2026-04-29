@@ -53,11 +53,30 @@ namespace CSharpPractice.Collections
             }
 
             // Looping through dictionary
+            // padding: +ve value => right alignment, -ve value => left alignment
             Console.WriteLine("Student info summary: ");
-            Console.WriteLine($"{"Name", 8} | Age");
+            Console.WriteLine($"{"Name", -8} | Age");
             foreach (var student in studentAge)
             {
-                Console.WriteLine($"{student.Key, 8} | {student.Value}");
+                Console.WriteLine($"{student.Key, -8} | {student.Value}");
+            }
+        }
+
+        // Hashset Lab
+        public static void HashsetLab()
+        {
+            HashSet<string> users = new HashSet<string>();
+
+            users.Add("Alice");
+            users.Add("Bob");
+            users.Add("Alice");
+            users.Add("Pablo");
+
+            Console.WriteLine("==== HashSet Demo ==== ");
+            Console.WriteLine("Users:");
+            foreach(string user in users)
+            {
+                Console.WriteLine(user);
             }
         }
     }
