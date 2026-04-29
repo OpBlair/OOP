@@ -54,7 +54,9 @@ public class Program{
         Console.WriteLine("9. Division.");
         Console.WriteLine("10. Number Guessing Game.");
         Console.WriteLine("11. Tic Tac Toe Game.");
-        Console.WriteLine("12. Collections");
+        Console.WriteLine("12. Arrays");
+        Console.WriteLine("13. Lists");
+        Console.WriteLine("14. Dictionary");
 
         Console.Write("Enter your choice: ");
 
@@ -73,6 +75,8 @@ public class Program{
                 case 10: Game.GuessNumber(); break;
                 case 11: TicTacToeGame.GameBody.Start(); break;
                 case 12: CollectionsLab.Arrays(); break;
+                case 13: CollectionsLab.ListsLab(); break;
+                case 14: CollectionsLab.DictionaryLab(); break;
                 default: Console.WriteLine("No input specified!"); break;
             }
         }
