@@ -57,6 +57,7 @@ public class Program{
         Console.WriteLine("12. Arrays");
         Console.WriteLine("13. Lists");
         Console.WriteLine("14. Dictionary");
+        Console.WriteLine("15. HashSet");
 
         Console.Write("Enter your choice: ");
 
@@ -77,6 +78,7 @@ public class Program{
                 case 12: CollectionsLab.Arrays(); break;
                 case 13: CollectionsLab.ListsLab(); break;
                 case 14: CollectionsLab.DictionaryLab(); break;
+                case 15: CollectionsLab.HashsetLab(); break;
                 default: Console.WriteLine("No input specified!"); break;
             }
         }
