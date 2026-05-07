@@ -4,6 +4,8 @@ using CSharpPractice.Functions;
 using NumberGuessing;
 using TicTacToeGame;
 using CSharpPractice.Collections;
+using ConsolePing;
+using System.ComponentModel;
 
 public class Program{
 
@@ -58,6 +60,7 @@ public class Program{
         Console.WriteLine("13. Lists");
         Console.WriteLine("14. Dictionary");
         Console.WriteLine("15. HashSet");
+        Console.WriteLine("16. Console Ping App.");
 
         Console.Write("Enter your choice: ");
 
@@ -79,6 +82,7 @@ public class Program{
                 case 13: CollectionsLab.ListsLab(); break;
                 case 14: CollectionsLab.DictionaryLab(); break;
                 case 15: CollectionsLab.HashsetLab(); break;
+                case 16: PingTool.ConsolePingApp(); break;
                 default: Console.WriteLine("No input specified!"); break;
             }
         }
