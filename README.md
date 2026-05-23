@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Language](https://img.shields.io/badge/language-Java%20✨-blue)](https://www.java.com)
 
-A comprehensive collection of **Object-Oriented Programming** examples, exercises, and design patterns implemented in **Java** (with plans to support more languages in the future).
+A comprehensive collection of **Object-Oriented Programming** examples, exercises, and design patterns implemented in **Java**, **C#** (with plans to support more languages in the future, e.g. JavaScript).
 
 Perfect for learning, teaching, or preparing for technical interviews!
 
