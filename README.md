@@ -21,12 +21,12 @@ Perfect for learning, teaching, or preparing for technical interviews!
 
 ## Overview
 
-This repository demonstrates fundamental and advanced Object-Oriented Programming concepts using clean, modern **Java**.  
+This repository demonstrates fundamental and advanced Object-Oriented Programming concepts using clean, modern **Java**, **C#**.  
 Each concept comes with clear explanations, real-world analogies, and executable examples.
 
 Ideal for:
 - Students learning OOP
-- Developers switching to Java
+- Developers switching to Java, C#
 - Interview preparation (system design & OOP questions)
 
 ## Features
