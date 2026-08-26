@@ -8,8 +8,19 @@ class Student{
         this.year = year;
     }
 
-    printName(){
+    getDetails(){
         console.log(`${this.name} is a year ${this.year} student pursuing ${this.programme}.`);
+    }
+
+    isAdult(){
+        if(this.age > 18){
+            console.log(`${this.name} is an adult`);
+        }
+    }
+
+    promoteYear(){
+        this.year += 1;
+        console.log(`${this.name} has been promoted to year ${this.year}`);
     }
 }
 
@@ -29,8 +40,10 @@ let students = [
 ];
 
 let s1 = new Student(students[0].name, students[0].age, students[0].programme, students[0].year);
-s1.printName();
+s1.getDetails();
 
 const info = students.map(student => new Student(student.name, student.age, student.programme, student.year));
 
-info.forEach(s => s.printName());
+info.forEach(s => s.getDetails());
+info.forEach(s => s.isAdult());
+info.forEach(s => s.promoteYear());
