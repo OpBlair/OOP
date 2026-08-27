@@ -29,10 +29,38 @@ class Programme{
         this.name = name;
         this.code = code;
         this.duration = duration;
+        this.schedule = {};
+    }
+
+    addCourse(year, semester, course){
+        const yearKey = `Year ${year}`;
+        const semKey = `Semester ${semester}`;
+
+        if (!this.schedule[yearKey]) {
+            this.schedule[yearKey] = {};
+        }
+
+        if (!this.schedule[yearKey][semKey]) {
+            this.schedule[yearKey][semKey] = [];
+        }
+
+        this.schedule[yearKey][semKey].push(course);
     }
 
     getDetails(){
         console.log(`${this.name} is a ${this.duration} year programme with code: ${this.code}`);
+    }
+}
+
+class Course{
+    constructor(name, code, credit_units){
+        this.name = name;
+        this.code = code;
+        this.credit_units = credit_units;
+    }
+
+    getDetails(){
+        console.log(`${this.name} course has ${this.credit_units} credit units(CU) and its code is ${this.code}`);
     }
 }
 
@@ -59,3 +87,8 @@ let programs = [
 const details = programs.map(program => new Programme(program.name, program.code, program.duration));
 
 details.forEach(p => p.getDetails());
+
+const dataScience = new Course("Data Science (Systems & Technology)", "DSC2103", 4);
+
+details[0].addCourse(3, 1, dataScience);
+console.log(details[0].schedule);
